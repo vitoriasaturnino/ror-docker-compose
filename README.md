@@ -1,24 +1,16 @@
-# README
+# Primeiro projeto Ruby on Rails dockerizado
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicação criada no intuíto de estudar as tecnologias Docker e Docker Compose.
 
-Things you may want to cover:
+## Para levantar a aplicação:
 
-* Ruby version
+- Como pré requisitos é preciso ter o **Docker** e o **Docker Compose** instalados em sua máquina. Caso ainda não temha instalado siga este [tutorial](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu);
 
-* System dependencies
+- Após concluir a instalação rode o comando `$ sudo docker build -t myapp . && docker run -it myapp` para buildar a imagem e levantar o container;
 
-* Configuration
+- No seu navegador acesse [localhost:3000](localhost:3000) e veja a plicação rodando.
 
-* Database creation
+<!--
+add command rake db:create in entrypoint.sh
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Docker build and run inone command -->

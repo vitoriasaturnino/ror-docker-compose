@@ -10,6 +10,7 @@ Aplicação criada no intuíto de estudar as tecnologias Docker e Docker Compose
 
 - No seu navegador acesse [localhost:3000](http://localhost:3000) e veja a plicação rodando.
 
+#
 
 <!-- add command rake db:create in entrypoint.sh
 
